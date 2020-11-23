@@ -22,9 +22,8 @@
   <dependencies>   
     <!-- native SWT jar -->
     <dependency>
-      <groupId>${swt.groupId}</groupId>
+      <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
-      <version>${swt.version}</version>
       <scope>compile</scope>
     </dependency>
     

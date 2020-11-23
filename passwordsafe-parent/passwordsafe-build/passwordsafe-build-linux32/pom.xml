@@ -23,9 +23,8 @@
   <dependencies>   
     <!-- native SWT jar -->
     <dependency>
-      <groupId>${swt.groupId}</groupId>
+      <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.swt.gtk.linux.x86</artifactId>
-      <version>${swt.version}</version>
       <scope>compile</scope>
     </dependency>
     
@@ -48,7 +47,7 @@
               <descriptors>
                 <descriptor>src/assembly/linux-x86.xml</descriptor>
               </descriptors>
-          
+              <tarLongFileMode>posix</tarLongFileMode>
             </configuration>
           </execution>
         </executions>

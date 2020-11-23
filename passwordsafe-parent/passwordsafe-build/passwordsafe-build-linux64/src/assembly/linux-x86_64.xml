@@ -50,7 +50,7 @@
   <dependencySets>
     <dependencySet>
       <!--excludes>
-        <exclude>${swt.groupId}:${swt.artifactId}+</exclude>
+        <exclude>org.eclipse.platform:${swt.artifactId}+</exclude>
       </excludes-->
       <outputDirectory>lib</outputDirectory>
       <outputFileNameMapping>
@@ -62,7 +62,7 @@
     </dependencySet>
     <!--dependencySet>
       <includes>
-        <include>${swt.groupId}:org.eclipse.swt.gtk.linux.x86_64:${swt.version}</include>
+        <include>org.eclipse.platform:org.eclipse.swt.gtk.linux.x86_64:${swt.version}</include>
       </includes>
       <outputDirectory>lib</outputDirectory>
       <useProjectArtifact>false</useProjectArtifact>

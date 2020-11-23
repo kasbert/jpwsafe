@@ -22,9 +22,8 @@
   <dependencies>   
     <!-- native SWT jar -->
     <dependency>
-      <groupId>${swt.groupId}</groupId>
+      <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
-      <version>${swt.version}</version>
       <scope>compile</scope>
     </dependency>
     
@@ -47,7 +46,7 @@
               <descriptors>
                 <descriptor>src/assembly/linux-x86_64.xml</descriptor>
               </descriptors>
-          
+              <tarLongFileMode>posix</tarLongFileMode>
             </configuration>
           </execution>
         </executions>
@@ -66,7 +65,7 @@
         </os>
       </activation>
       <properties>
-        <swt.groupId>org.eclipse.swt</swt.groupId>
+        <swt.groupId>org.eclipse.platform</swt.groupId>
         <swt.artifactId>org.eclipse.swt.gtk.linux.x86_64</swt.artifactId>
       </properties>
     </profile>
@@ -79,7 +78,7 @@
         </os>
       </activation>
       <properties>
-        <swt.groupId>org.eclipse.swt</swt.groupId>
+        <swt.groupId>org.eclipse.platform</swt.groupId>
         <swt.artifactId>org.eclipse.swt.gtk.linux.x86</swt.artifactId>
       </properties>
     </profile>
@@ -92,7 +91,7 @@
         </os>
       </activation>
       <properties>
-        <swt.groupId>org.eclipse.swt</swt.groupId>
+        <swt.groupId>org.eclipse.platform</swt.groupId>
         <swt.artifactId>org.eclipse.swt.cocoa.macosx</swt.artifactId>
       </properties>
     </profile>
@@ -105,7 +104,7 @@
         </os>
       </activation>
       <properties>
-        <swt.groupId>org.eclipse.swt</swt.groupId>
+        <swt.groupId>org.eclipse.platform</swt.groupId>
         <swt.artifactId>org.eclipse.swt.cocoa.macosx.x86_64</swt.artifactId>
       </properties>
     </profile>
@@ -119,7 +118,7 @@
         </os>
       </activation>
       <properties>
-        <swt.groupId>org.eclipse.swt</swt.groupId>
+        <swt.groupId>org.eclipse.platform</swt.groupId>
         <swt.artifactId>org.eclipse.swt.win32.win32.x86</swt.artifactId>
       </properties>
     </profile>
@@ -132,7 +131,7 @@
         </os>
       </activation>
       <properties>
-        <swt.groupId>org.eclipse.swt</swt.groupId>
+        <swt.groupId>org.eclipse.platform</swt.groupId>
         <swt.artifactId>org.eclipse.swt.win32.win32.x86_64</swt.artifactId>
       </properties>
     </profile>
