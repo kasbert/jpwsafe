@@ -14,9 +14,9 @@
   <url>http://jpwsafe.sourceforge.net/</url>
 
   <scm>
-    <url>https://sourceforge.net/p/jpwsafe/code/HEAD/tree/trunk/</url>
-    <connection>svn+ssh://svn.code.sf.net/p/jpwsafe/code/trunk/jpwsafe-parent</connection>
-    <developerConnection>svn+ssh://svn.code.sf.net/p/jpwsafe/code/trunk/jpwsafe-parent</developerConnection>
+    <url>https://github.com/kasbert/jpwsafe</url>
+    <connection>scm:git:git://github.com/kasbert/jpwsafe</connection>
+    <developerConnection>scm:git:git@github.com/kasbert/jpwsafe</developerConnection>
   </scm>
 
   <issueManagement>
@@ -68,7 +68,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.12</version>
+        <version>4.13.1</version>
         <scope>test</scope>
       </dependency>
 
