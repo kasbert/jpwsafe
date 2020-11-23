@@ -16,7 +16,7 @@
   <scm>
     <url>https://github.com/kasbert/jpwsafe</url>
     <connection>scm:git:git://github.com/kasbert/jpwsafe</connection>
-    <developerConnection>scm:git:git@github.com/kasbert/jpwsafe</developerConnection>
+    <developerConnection>scm:git:git@github.com:kasbert/jpwsafe</developerConnection>
   </scm>
 
   <issueManagement>
